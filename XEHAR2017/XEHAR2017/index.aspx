@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Quicky.index" MasterPageFile="~/Quicky.Master"%>
 <asp:Content ContentPlaceHolderID="head" runat="server">
-    <%
+<%--    <%
         json.Value = Customers();
         
          %>
@@ -37,7 +37,7 @@
         //var r = document.getElementById("Body_json");
         var data = google.visualization.arrayToDataTable([document.getElementById("Body_json").value]);
         //var data = google.visualization.arrayToDataTable([
-        //  ['Task', 'Hours per Day'],
+        ////  ['Task', 'Hours per Day'],
         //  ['Work', 11],
         //  ['Eat', 2],
         //  ['Commute', 2],
@@ -58,6 +58,6 @@
 <asp:Content ContentPlaceHolderID="Title" runat="server">Home</asp:Content>
 <asp:Content ContentPlaceHolderID="Body" runat="server">
     <%--<h1 runat="server" id="CLT"></h1>--%>
-   // <input type="hidden" name="json" id="json" runat="server" />
+   // <input type="hidden" name="json" id="json" runat="server" />--%>
     
 </asp:Content>

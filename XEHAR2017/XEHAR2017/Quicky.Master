@@ -56,8 +56,18 @@ google.setOnLoadCallback(drawChart);
         </nav>
     </aside>
     
-<div id="piechart" style="width: 900px; height: 500px;"></div>
-    <asp:ContentPlaceHolder ID="Body" runat="server"></asp:ContentPlaceHolder>
-    <footer></footer>
+<%--<div id="piechart" style="width: 900px; height: 500px;"></div>--%>
+    <div>
+        <form id="form1" runat="server">
+<div class="content-wrapper">
+    <asp:ContentPlaceHolder ID="Body" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+    </div>
+    </form>
+    </div>
+    
+        <footer></footer>
 </body>
 </html>

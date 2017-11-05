@@ -108,6 +108,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="ProductVendor.aspx" />
     <Content Include="Quicky.Master" />
     <Content Include="SignUp.aspx" />
     <None Include="Web.Debug.config">
@@ -141,6 +142,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductVendor.aspx.cs">
+      <DependentUpon>ProductVendor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductVendor.aspx.designer.cs">
+      <DependentUpon>ProductVendor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Quicky.Master.cs">
